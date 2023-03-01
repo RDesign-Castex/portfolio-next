@@ -1,5 +1,5 @@
 {
-  ...
+  
 "scripts": {
     "dev": "next",
     "build": "next build",
@@ -7,5 +7,5 @@
     "deploy": "npm run build && npm run export",
     "start": "next start",
 },
-   ...
+   
  
