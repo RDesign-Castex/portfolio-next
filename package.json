@@ -1,26 +1,11 @@
 {
-  "engines": {
-    "node": "18.x"
-  },
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
+  ...
+"scripts": {
+    "dev": "next",
     "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "next": "latest",
-    "next-themes": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.1"
-  }
-}
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "start": "next start",
+},
+   ...
+ 
